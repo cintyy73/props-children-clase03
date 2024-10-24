@@ -1,0 +1,33 @@
+*{
+    color:black
+}
+.container{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    list-style-type: none;
+}
+
+.layout{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto ;
+}
+
+footer{
+    align-content: center;
+    height: 10vh;
+    background-color: aqua;
+    text-align: center;
+}
+
+header{
+        height: 10vh;
+        background-color: aqua;
+}
+
+main{
+    background-color: aquamarine
+    ;
+}
